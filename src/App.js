@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { HeroVideo } from 'react-hero-video';
 import CustomHeroVideo from './components/CustomHeroVideo';
-import logo from './logo.svg';
 import './App.css';
+import Cover from "./components/Cover";
 
 class App extends Component {
   render() {
@@ -20,16 +19,9 @@ class App extends Component {
           {/*</YoutubeBackground>*/}
         {/*</div>*/}
 
-        <CustomHeroVideo
-          videoId="UBX8MWYel3s"
-          subtitle="A video background is so pretentious!"
-          title="SLAMFusion"
-        >
-          <p>
-            am a childer
-          </p>
-        </CustomHeroVideo>
-        <div style={{marginTop: "100vh", height: "100vh", backgroundColor: "#0000FF" }}>
+        <CustomHeroVideo videoId="9iacZrrkGzk" />
+        <Cover />
+        <div style={{marginTop: "100vh", height: "100vh"}}>
           OwO what's this
         </div>
       </div>
