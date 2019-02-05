@@ -21,7 +21,7 @@ class App extends Component {
 
         <CustomHeroVideo videoId="jssO8-5qmag" />
         <Cover />
-        <div style={{marginTop: "100vh", height: "100vh"}}>
+        <div id="content">
           OwO what's this
         </div>
       </div>
