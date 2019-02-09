@@ -1,29 +1,16 @@
 import React, { Component } from 'react';
-import CustomHeroVideo from './components/CustomHeroVideo';
 import './App.css';
+import CustomHeroVideo from './components/CustomHeroVideo';
 import Cover from "./components/Cover";
+import Content from "./components/Content";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        {/*<div style={{position: "absolute", zIndex: 1, color: "white"}}>*/}
-          {/*Hi there!*/}
-        {/*</div>*/}
-        {/*<div style={{position: "absolute", zIndex: -1}}>*/}
-          {/*<YoutubeBackground*/}
-            {/*// videoId={"UBX8MWYel3s"}*/}
-            {/*overlay={"rgba(0, 0, 0, .8)"}*/}
-          {/*>*/}
-            {/*<div style={{width: "100vw", height: "100vh"}} />*/}
-          {/*</YoutubeBackground>*/}
-        {/*</div>*/}
-
-        <CustomHeroVideo videoId="jssO8-5qmag" />
+      <div>
+        <CustomHeroVideo videoId="4so0HmaU-Dc"/>
         <Cover />
-        <div id="content">
-          OwO what's this
-        </div>
+        <Content />
       </div>
     );
   }
