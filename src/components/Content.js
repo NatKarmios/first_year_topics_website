@@ -1,12 +1,13 @@
 import React from 'react';
 import Page from "./Page";
+import pages from "../content";
 
 const Content = () => (
   <div id="content">
     <Page>
       testerino
     </Page>
-    <Page />
+    {pages.map(page => page())}
   </div>
 );
 
