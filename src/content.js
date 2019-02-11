@@ -1,7 +1,7 @@
 import React from 'react'
 import Page from 'components/Page'
 
-export const introAndOverview = () => (
+const introAndOverview = () => (
     <Page>
         Intro and overview
 
@@ -18,7 +18,7 @@ export const introAndOverview = () => (
     </Page>);
 
 
-export const motivation = () => (
+const motivation = () => (
     <Page>
         Why do we care?
 
@@ -31,7 +31,7 @@ export const motivation = () => (
         more accessible and increasing adoption.
     </Page>);
 
-export const explanation = () => (
+const explanation = () => (
     <Page>
         How does it work?
 
@@ -41,7 +41,7 @@ export const explanation = () => (
         but first here are some pictures of our depth estimations and semantic masks.
     </Page>);
 
-export const semanticsMeaning = () => (
+const semanticsMeaning = () => (
     <Page>
         Semantics - a fancy word for "meaning" (obviously with its nuances).
 
@@ -52,7 +52,7 @@ export const semanticsMeaning = () => (
     </Page>);
 
 
-export const constantSemanticRepresentationMeaning = () => (
+const compactSemanticRepresentationMeaning = () => (
     <Page>
         Compact semantic representation - trying to convey the most meaning in a very small space.
 
@@ -61,7 +61,7 @@ export const constantSemanticRepresentationMeaning = () => (
         There is a catch though: once you've encoded it, you have to be able to decode it back to get the original input.
     </Page>);
 
-export const VaeMeaning = () => (
+const vaeMeaning = () => (
     <Page>
         Variational Autoencoders (VAEs) - a type of artificial neural network that's very good at finding
         compact semantic representations. We (the research community) don't really understand what goes on
@@ -70,7 +70,7 @@ export const VaeMeaning = () => (
     </Page>);
 
 
-export const VaeExample = () => (
+const vaeExample = () => (
     <Page>
         Let's concretify this with an example.
 
@@ -87,7 +87,7 @@ export const VaeExample = () => (
         This repeats a few times until the neural network has "learnt" to multiply by two.
     </Page>);
 
-export const VaeMeaningCont = () => (
+const vaeMeaningCont = () => (
     <Page>
         A VAE can be thought as two neural networks that work together in a clever way.
 
@@ -104,7 +104,7 @@ export const VaeMeaningCont = () => (
         which means we can now use P on its own to convert inputs into nice latent representations.
     </Page>);
 
-export const VaeExampleCont = () => (
+const vaeExampleCont = () => (
     <Page>
         Again, let's make this concrete with an example.
 
@@ -115,3 +115,15 @@ export const VaeExampleCont = () => (
         When a student looks at the camera, it produces a latent representation of the face and compares it to its database.
         It then identifies the student and subtracts £2.50 from their account.
     </Page>);
+
+export default [
+    introAndOverview(),
+    motivation(),
+    explanation(),
+    semanticsMeaning(),
+    compactSemanticRepresentationMeaning(),
+    vaeMeaning(),
+    vaeExample(),
+    vaeMeaningCont(),
+    vaeExampleCont()
+];
