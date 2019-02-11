@@ -117,13 +117,13 @@ const vaeExampleCont = () => (
     </Page>);
 
 export default [
-    introAndOverview(),
-    motivation(),
-    explanation(),
-    semanticsMeaning(),
-    compactSemanticRepresentationMeaning(),
-    vaeMeaning(),
-    vaeExample(),
-    vaeMeaningCont(),
-    vaeExampleCont()
+    introAndOverview,
+    motivation,
+    explanation,
+    semanticsMeaning,
+    compactSemanticRepresentationMeaning,
+    vaeMeaning,
+    vaeExample,
+    vaeMeaningCont,
+    vaeExampleCont
 ];
