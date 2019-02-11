@@ -52,10 +52,10 @@
 .page {
   margin: 5vw;
   width: 90vw;
-  min-height: 100vh;
 }
 
 .page:first-of-type {
+  min-height: 100vh;
   margin-top: 0;
 }
 
