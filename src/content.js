@@ -15,7 +15,8 @@ const introAndOverview = () => (
         how far away a certain pixel is as well as to which entity it belongs to.
         This improves upon existing systems which, for the most part, use two cameras,
         LIDAR, ultrasound and other more expensive sensors.
-    </Page>);
+    </Page>
+);
 
 
 const motivation = () => (
@@ -29,7 +30,8 @@ const motivation = () => (
         As, in most cases, much of the cost is in the sensor and navigation systems, it is thus logical that
         further development of these would be a good place to start for making such technologies
         more accessible and increasing adoption.
-    </Page>);
+    </Page>
+);
 
 const explanation = () => (
     <Page>
@@ -39,7 +41,8 @@ const explanation = () => (
         using Variational Autoencoders" - which transforms an image into an estimation of depth as well
         as a series of semantic masks. We'll get down what this all means in a moment,
         but first here are some pictures of our depth estimations and semantic masks.
-    </Page>);
+    </Page>
+);
 
 const semanticsMeaning = () => (
     <Page>
@@ -49,7 +52,8 @@ const semanticsMeaning = () => (
         double and bunk bed are all in fact "beds", despite looking different and having different attributes.
         An unrelated example would be realising that a passage of text in its entirety alluding to death
         despite none of the individual words mentioning it directly.
-    </Page>);
+    </Page>
+);
 
 
 const compactSemanticRepresentationMeaning = () => (
@@ -58,8 +62,10 @@ const compactSemanticRepresentationMeaning = () => (
 
         They say a picture is worth a thousand words - we want to encode it with 32 numbers.
 
-        There is a catch though: once you've encoded it, you have to be able to decode it back to get the original input.
-    </Page>);
+        There is a catch though: once you've encoded it, you have to be able to decode it back to get the original
+        input.
+    </Page>
+);
 
 const vaeMeaning = () => (
     <Page>
@@ -67,7 +73,8 @@ const vaeMeaning = () => (
         compact semantic representations. We (the research community) don't really understand what goes on
         in the neural network so for now we can treat it as a magical box that takes inputs and spits out outputs.
         It can "learn" to give the desired outputs by being shown examples of input-output pairs.
-    </Page>);
+    </Page>
+);
 
 
 const vaeExample = () => (
@@ -85,7 +92,8 @@ const vaeExample = () => (
         to be better using a technique called "backpropagation".
 
         This repeats a few times until the neural network has "learnt" to multiply by two.
-    </Page>);
+    </Page>
+);
 
 const vaeMeaningCont = () => (
     <Page>
@@ -96,13 +104,15 @@ const vaeMeaningCont = () => (
         (data with lots of columns and rows - imagine a big spreadsheet) and encodes itvg
         into a lower dimensional "latent representation" (imagine taking the aforementioned spreadsheet
         and compressing it into a single cell). Now Q takes the latent representation
-        (with a bit of random noise added) from P and attempts to decode it such that it obtains the original input to P.
+        (with a bit of random noise added) from P and attempts to decode it such that it obtains the original input to
+        P.
 
         As the neural networks "train", Q learns to better decode the latent representations
         while P learns to help Q by producing better latent representations.
         After a while, the input to P and output from Q become pretty indistinguishable
         which means we can now use P on its own to convert inputs into nice latent representations.
-    </Page>);
+    </Page>
+);
 
 const vaeExampleCont = () => (
     <Page>
@@ -112,9 +122,11 @@ const vaeExampleCont = () => (
         The camera should detect their faces. The only problem: how do we work out who's who?
 
         We whip out our VAE and train it to encode everyone's faces into 100 numbers.
-        When a student looks at the camera, it produces a latent representation of the face and compares it to its database.
+        When a student looks at the camera, it produces a latent representation of the face and compares it to its
+        database.
         It then identifies the student and subtracts £2.50 from their account.
-    </Page>);
+    </Page>
+);
 
 export default [
     introAndOverview,
