@@ -5,10 +5,13 @@ const introAndOverview = () => (
   <Page>
     <h1>Intro and overview</h1>
 
-    Who are we? Robots!
-    What do we want? Better cheaper navigation systems!
-    When do we want them? Now!
-
+    Who are we? <b>Robots!</b>
+    <br />
+    What do we want? <b>Better cheaper navigation systems!</b>
+    <br />
+    When do we want them? <b>Now!</b>
+    <br />
+    <br />
     The system in question, being developed at Imperial College London as you read this here sentence,
     is an incremental step towards allowing machines to "understand" the environments they operate in.
     Using a single webcam feed as input, the system uses a deep learning technique to estimate
