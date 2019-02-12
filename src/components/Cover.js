@@ -1,6 +1,6 @@
 import React from "react";
 
-const BASE_OPACITY = 0.6;
+const BASE_OPACITY = 0.8;
 
 class Cover extends React.Component {
   constructor(props) {
