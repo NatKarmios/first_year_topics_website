@@ -5,7 +5,14 @@ import pages from "../content";
 const Content = () => (
   <div id="content">
     <Page>
-      testerino
+      <div id="title-box">
+        <div id="title">
+          {document.title}
+        </div>
+        <div id="subtitle">
+          Thanks, Peter.
+        </div>
+      </div>
     </Page>
     {pages.map(page => page())}
   </div>
