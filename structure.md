@@ -1,28 +1,13 @@
-# y tho
+# Intro
 
-- robots naviagting better
-- identifying object types via image data
-- much cheaper than lasers
+# CodeSLAM
+- 4-5 paragraphs
 
+# Neural Networks
+- 4-5 paragraphs
+- Demonstrate through game-playing AI
 
-# Structure
+# Paper
+- 4-5 paragraphs
 
-## Title screen
-
-- project name
-- brief summary
-- student name
-
-main page - motivation
-
-2nd page - literature review
-
-3rd page - some bloody shite
-
-last page - contact page with him in gold, rainbows, sunshine, and
-gangnam style playing on the background
-
-What does it mean for ife at imperial :O
-
-#TODO
-add  b i g  chungus
+# Contacts page

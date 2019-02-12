@@ -10,7 +10,7 @@ const Content = () => (
           {document.title}
         </div>
         <div id="subtitle">
-          Thanks, Peter.
+          using variational autoencoders
         </div>
       </div>
     </Page>
