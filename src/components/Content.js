@@ -4,7 +4,7 @@ import pages from "../content";
 
 const Content = () => (
   <div id="content">
-    <Page>
+    <Page bg="rgba(0, 0, 0, 0)">
       <div id="title-box">
         <div id="title">
           {document.title}
@@ -12,9 +12,12 @@ const Content = () => (
         <div id="subtitle">
           using variational autoencoders
         </div>
+        <div style={{marginTop: '20px'}}>
+          by Shuaifeng Zhi
+        </div>
       </div>
     </Page>
-    {pages.map(page => page())}
+    {pages.map((page, i) => page({key: i}))}
   </div>
 );
 

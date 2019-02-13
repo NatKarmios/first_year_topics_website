@@ -50,7 +50,8 @@
 }
 
 .page {
-  margin: 5vw;
+  margin: 5vw 3vw;
+  padding: 1px 2vw;
   width: 90vw;
 }
 
@@ -99,4 +100,30 @@ body::-webkit-scrollbar-thumb
   margin-top: 50vh;
   transform: translateY(-60%);
   text-shadow: 0 4px 10px #000000;
+}
+
+#contact-box {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#contact-image {
+  width: 100px;
+  margin-right: 15px;
+}
+
+#contact-name {
+  margin: 0;
+}
+
+#contact-address {
+  margin-top: 0;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h2 {
+  font-weight: lighter;
+  font-style: italic;
 }
