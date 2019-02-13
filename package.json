@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/NatKarmios/first_year_topics_website/issues"
   },
-  "homepage": "https://natkarmios.github.io/first_year_topics_website",
+  "homepage": "./",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
